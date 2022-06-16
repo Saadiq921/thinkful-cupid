@@ -1,0 +1,264 @@
+/* -------  General Styles ------- */
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #6b1a22;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 10px 15px 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  p {
+    line-height: 1.5em;
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  section.alternate-background {
+    background-color: #a35766;
+    color: #ecdbc9;
+  }
+  
+  main img {
+    width: 100px;
+  }
+  
+  /* ---  Groups & Items --- */
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-double {
+    flex: 2;
+  }
+  
+  /* -------  Navigation ------- */
+  
+  header {
+    background-color: #83092e;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-family: "Tangerine", cursive;
+    font-size: 72px;
+    color: #ecdbc9;
+  }
+  
+  header nav ul li {
+    list-style-type: none;
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: #ecdbc9;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+  
+  /* -------  Join Form ------- */
+  form {
+    border: 2px solid #6b1a22;
+    padding: 20px;
+  
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form select,
+  form input {
+    margin-bottom: 20px;
+    width: 180px;
+  }
+  
+  form button {
+    background-color: #83092e;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  /* -------  Footer ------- */
+  
+  footer {
+    background-color: #83092e;
+  }
+  
+  footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* li {
+    display: inline; 
+    flex-direction: column;
+  
+  } */
+  
+  .form {
+    text-align: left;
+    justify-content: space-between;
+    border: 2px solid #6b1a22;
+  }
+  
+  /* Navigation */
+  nav {
+    padding-bottom: 20px;
+  }
+  
+  
+  #menu {
+    display: inline;
+    padding-bottom:20px;
+  }
+  
+  .first-img {
+    /* width: 400px; */
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .form-1 {
+    text-align: center;
+  }
+  
+  .submit-button {
+    background-color: #6b1a22;
+    color: white;
+  }
+  
+  .alternate-background {
+    display: flex;
+    flex-direction: column;
+  }
+  /* color: #6b1a22; */
+  
+  /* -------  Media Query ------- */
+  @media all and (min-width: 600px) {
+    header {
+      display: flex;
+      justify-content: space-between; 
+    }
+  
+    h1 {
+      font-size: 48px;
+      padding-top: 0px;
+    }
+  
+    nav {
+      padding-top: 20px;
+    }
+  
+    #join {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    form {
+      margin-left: 20px;
+      margin-bottom: 40px;
+  
+    }
+  
+    .img-1 {
+      width: 1000px;
+      height: 500px;
+      padding-top: 50px;
+    }
+  
+    .form-1 {
+      justify-content: center;
+    }
+  
+    /* About */
+  
+    .alternate-background {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between; 
+      padding-top: 40px;
+      padding-bottom: 5px;
+    }
+  
+  
+    .about-img {
+      width: 250px;
+      height: 200px;
+      /* justify-content: space-between; */
+    }
+    .about-para {
+      width: 50%;
+    }
+  
+    #download {
+      display: flex;
+      flex-direction: row;
+    }
+    .download-content {
+      width: 50%;
+  
+    }
+  
+    #blog {
+      display: flex;
+      flex-direction: row;
+      background-color: #a35766;
+    }
+    .blog-div {
+      display: flex;
+      flex-direction: column;
+   
+    }
+  
+    /* Blog */
+  
+    .blog-div {
+      width: 90%;
+    }
+    .outer-blog {
+      background-color: #a35766;
+      color: white;
+    }
+  
+    .outer-download {
+      background-color: white;
+      color:#6b1a22;
+    }
+    .first-blog-div {
+      padding-bottom: 50px;
+    }
+  
+  }
